@@ -1,0 +1,12 @@
+services:
+    lexnetictodofrontend:
+      container_name: lexnetictodofrontend
+      build:
+        context: .
+        dockerfile: Dockerfile
+
+      command: sleep infinity
+      volumes:
+        - ../..:/workspaces:cached
+      ports:
+        - 8000:8000
