@@ -8,17 +8,19 @@ for lexnetic front end test
         - choose reopen with container
 
 ### Initialize project
-    To reach inside todo-frontend directory
-        - cd todo-frontend
+To reach inside todo-frontend directory
 
-    Install all dependencies with
-        - npm i
+    cd todo-frontend
+
+Install all dependencies
+
+    npm i
 
 ## Build project
-    - npm run build
+    npm run build
 
 ## Start in development mode
-    - npm run dev
+    npm run dev
 
 ## Start in production mode
-    - npm run start
+    npm run start
